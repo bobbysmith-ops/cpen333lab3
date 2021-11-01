@@ -1,0 +1,13 @@
+q1)just use a test case of a few lines. Make some unit tests with expected outputs.
+
+
+q2) 
+yes multi threading sped things up
+single threaded wordcounting = 14 ms
+multi threaded wordcounting = 11 ms
+
+
+q3) add another if statement to the code or an incrementing variable that checks if we've moved onto another file when the program sees that the same key is already stored in the dictionary, and if it shows we've moved onto another file then it alters this new key value by adding the name of the play before it before storing it in the dictionary, ie. hamletking, othelloking etc.
+
+
+//how to access the elements of the dictionary
