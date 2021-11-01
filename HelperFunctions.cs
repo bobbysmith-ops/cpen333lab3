@@ -79,7 +79,7 @@ namespace Lab3Q1
                         count = WordCount(ref line, index);//'get the wordcount
 
                         if (wcounts.ContainsKey(character))//'if the key exists
-                            wcounts[character] = count;//' update the word count for that character in the dictionary
+                            wcounts[character] += count;//' update the word count for that character in the dictionary
                         else 
                             wcounts.Add(character, count);//' add a new key-value pair to the dictionary
 
